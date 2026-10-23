@@ -16,7 +16,7 @@ flag = True
 while flag is True:
     if n == '4':
         print("Спасибо за работу! Ваша таблица сохранена :)")
-        df.to_csv('address_book.csv', encoding='utf-8-sig')           #сохраняем нашу табличку в файлик
+        df.to_csv('address_book.csv')           #сохраняем нашу табличку в файлик
         flag = False
         break
 
