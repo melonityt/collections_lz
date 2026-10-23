@@ -30,15 +30,15 @@ plt.plot(x2, y2, color='#173554', marker='o', markersize=7, linestyle='none')
 
 
 plt.plot(x, ye, color='#40B336', markersize=7) 
-plt.plot(x2, ye2, color="#40B336", marker='o', markersize=7, linestyle='none')
+plt.plot(x2, ye2, color="#40B336", marker='s', markersize=7, linestyle='none')
 
 
 plt.plot(x, ylog, color="#3010E6", markersize=7) 
-plt.plot(x2, ylog2, color="#3010E6", marker='o', markersize=7, linestyle='none')
+plt.plot(x2, ylog2, color="#3010E6", marker='x', markersize=7, linestyle='none')
 
 
 plt.plot(x, y3, color="#E73718", markersize=7) 
-plt.plot(x2, y33, color="#E73718", marker='o', markersize=7, linestyle='none')
+plt.plot(x2, y33, color="#E73718", marker='d', markersize=7, linestyle='none')
 
 
 
